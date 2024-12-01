@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", "sans-serif";
+  --font-mono: "IBM Plex Mono", "monospace";
+  --font-serif: "IBM Plex Serif", "serif";
+
+  --color-background-overlay: hsla(210, 11%, 18%, 1);
+  --color-background-raised: hsla(210, 14%, 13%, 1);
+  --color-background: hsla(210, 18%, 9%, 1);
+
+  --color-foreground: hsla(0, 0%, 100%, 0.89);
+  --color-foreground-text-strong: hsla(0, 0%, 100%, 1);
+  --color-foreground-text-weak: hsla(0, 0%, 100%, 0.78);
+  --color-foreground-stroke-strong: hsla(0, 0%, 100%, 0.6);
+  --color-foreground-stroke-weak: hsla(0, 0%, 100%, 0.12);
+  --color-foreground-fill: hsla(0, 0%, 100%, 0.06);
+
+  --color-primary-text: hsla(210, 100%, 80%, 1);
+  --color-primary-stroke-strong: hsla(210, 100%, 80%, 0.8);
+  --color-primary-stroke-weak: hsla(210, 100%, 80%, 0.2);
+  --color-primary-fill: hsla(210, 100%, 80%, 0.05);
+
+  --color-danger-text: hsla(0, 100%, 81%, 1);
+  --color-danger-stroke-strong: hsla(0, 100%, 81%, 0.8);
+  --color-danger-stroke-weak: hsla(0, 100%, 81%, 0.2);
+  --color-danger-fill: hsla(0, 100%, 81%, 0.05);
+
+  --color-caution-text: hsla(42, 65%, 66%, 1);
+  --color-caution-stroke-strong: hsla(42, 65%, 66%, 0.8);
+  --color-caution-stroke-weak: hsla(42, 65%, 66%, 0.2);
+  --color-caution-fill: hsla(42, 65%, 66%, 0.05);
+
+  --color-success-text: hsla(162, 41%, 62%, 1);
+  --color-success-stroke-strong: hsla(162, 41%, 62%, 0.8);
+  --color-success-stroke-weak: hsla(162, 41%, 62%, 0.2);
+  --color-success-fill: hsla(162, 41%, 62%, 0.05);
+}
